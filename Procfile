@@ -1,0 +1,1 @@
+web: gunicorn web_synth:app --preload --timeout 60
